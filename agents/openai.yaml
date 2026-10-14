@@ -1,0 +1,12 @@
+interface:
+  display_name: "ELI5"
+  short_description: "Three-level plain-English explanations."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#0489A8"
+  default_prompt: "Use $eli5 to explain this in three simple levels."
+policy:
+  products:
+    - chatgpt
+    - codex
+  allow_implicit_invocation: true
